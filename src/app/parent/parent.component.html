@@ -1,0 +1,16 @@
+
+
+<div class="parent">
+    <div class="row">
+    <!-- checkbox -->
+    <input type="checkbox" (change)="onCheckParent($event)">
+    
+    <h1>this is parent component</h1>
+    
+    <!-- button -->
+    <button (click)="onCLickParent()">Parent Button</button>
+    
+    <app-child [parentDescription]="parentDescription" (childClick)="onChildClick($event)"></app-child>
+    <p>{{childDescription}}</p>
+</div>
+  </div>

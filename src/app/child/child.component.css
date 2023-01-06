@@ -1,0 +1,9 @@
+.child{
+    width: 50%;
+    border: 2px solid black;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
